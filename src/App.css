@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+
+main{
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+}
+
+header{
+  padding: 25px;
+}
+
+footer{
+  padding: 2px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: smaller;
+  text-align: right;
+}
+
+.TextInput {
+  font-size: large;
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+  border-radius: 3px;
+  display: block;
+  margin: 5px auto;
+}
+.TextInput:focus {
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px rgb(50, 100, 153);
+}
+.Radio {
+  font-size: small;
+}
+.Button {
+  display: block;
+  margin: 10px auto;
+  padding: .5rem;
+  font-size: 1em;
+  background: darkcyan;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 5px auto;
+}
+
+.Wrapper {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+small {
+  color: red;
+}
